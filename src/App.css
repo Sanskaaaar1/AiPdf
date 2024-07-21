@@ -1,0 +1,193 @@
+/*
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+
+
+/* Ensure the PDF viewer container expands to fit its content */
+/*
+.pdf-viewer-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure the PDF viewer content is not truncated during printing */
+/*
+.pdf-viewer-content {
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Allow scrolling if content overflows */
+  /*
+  page-break-inside: avoid; /* Prevent content from being split across pages */
+  /*
+}*/
+
+/* Style for the trigger button */
+/*
+.print-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}*/
+
+/* Style for the printed page */
+
+
+/*
+
+@media print {
+  html, body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+    
+  }div{
+    height: 100%;
+  }
+  @media print {
+    .PdfHighlighter {
+      background-color: "yellow";
+    }
+  }
+
+}
+
+@page {
+  size: auto;
+  margin: 20mm;
+ 
+}*/
+.aicompo{
+  background-image: linear-gradient(to left bottom, #ff1414, #ef004b, #cd006e, #a02c80, #6f3c81, #754180, #7a477f, #7f4d7e, #b0597f, #d86d77, #f28a6a, #fbb05f);
+} 
+
+
+.homeHeader {
+  background: linear-gradient(to left bottom, #ff1414, #ef004b, #cd006e, #a02c80, #6f3c81, #754180, #7a477f, #7f4d7e, #b0597f, #d86d77, #f28a6a, #fbb05f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+/*  
+.boxBg{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}*/
+/**
+.uploadBg{
+
+
+background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+
+
+
+}
+.headerBg{
+
+background: rgb(63,94,251);
+background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1);
+}
+.signBg{
+  background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+*/
+
+.initialPage{
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+text-align: center;
+text-rendering: optimizelegibility;
+text-transform: none;
+
+white-space-collapse: collapse
+}
+
+.heading{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+}
+.fontFaq{
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+  
+}
+@media (max-width:364px) {
+  .main{
+    font-size: 1rem;
+  }
+  .btn{
+    font-size: 0.6rem;
+  }
+}
+
+.showel{
+  opacity: 0;
+}
+div.parenti:hover .showel{
+  opacity: 1;
+}
+
+button.parenti:hover .showel{
+  opacity: 1;
+}
+
+.darkMode{
+background: #242a33;
+}
